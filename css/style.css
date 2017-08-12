@@ -10,9 +10,7 @@ body {
     width: 100%;
     color:#9da6ac;
 }
-/*==========================================
-PRE LOADER 
-==========================================*/
+
 .preloader {
     position: fixed;
     top: 0;
@@ -63,7 +61,7 @@ ul{
 h1,h2,h3,h4,h5,h6 { color:#585b60;}
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 5.5rem;
     line-height: 50px;
     font-weight: 600;
     font-family: "Myriad Pro" , sans-serif;
@@ -114,12 +112,13 @@ section:nth-of-type(odd) {
 .btn {
     border: 1px solid #fff;
     border-radius: 50px;
+    background-color:#ffffff;
     display: inline-block;
     min-width: 214px;
     padding: .9em;
     height: 50px;
     text-align: center;
-    color: #fff;
+    color: #000000;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -261,14 +260,29 @@ p.description {
 
 /* bennar Section CSS */
 .header-image{
-	padding-top:130px;
+	padding-top:200px;
+}
+
+h1 {
+    font-size: 7.5rem;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: "Myriad Pro" , sans-serif;
+
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: "Myriad Pro" , sans-serif;
+    color: #FFFFFF;
 }
 #bennar{
 	position:relative;
 }
 
 #bgimage {
-	background-image: url(../images/background.jpg);
+	background-image: url(../images/goodOne.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -376,7 +390,7 @@ p.bannerDescription{
 
 
 .right_desc_bottom_text{
-	margin-top:30px;
+	margin-top:20px;
 }
 .right_single_bottom_text{
 	margin-bottom:25px;
@@ -410,23 +424,22 @@ p.bannerDescription{
 }
 
 
-/* video Icon Section */
-.video_overlay{
-	background:rgba(245, 90, 138, 0.76);
-}
-#video_icon{
-	background:url(../images/videobg.jpg);
-	background-size:cover;
-}
-.video_text h5{
-	color:#fff;
-}
 
 /* Description Section CSS */
 #descriotion{}
 .main_description{
 	padding:50px 0px;
 }
+
+
+h3{
+    font-size: 1.5rem;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "Myriad Pro" , sans-serif;
+    margin: 0;
+}
+
 
 /* Second Description Section CSS */
 
@@ -477,68 +490,6 @@ p.bannerDescription{
 .video_text img{
     border-radius: 10px;
 
-}
-
-/* pricing Section CSS */
-.pricing_heading_text{
-	padding:60px 0px;
-}
-.main_pricing_table{
-	padding-bottom:100px;
-	overflow:hidden;
-}
-.single_pricing{
-	border:1px solid #ddd;
-	transition:.5s;
-	margin-bottom:30px;
-}
-.economy_table{
-	border:1px solid #39944A;
-	position:relative;
-}
-.economy_table:after{
-	content:"Popular";
-	right:0;
-	top:40px;
-	background:#39944A;
-	color:#fff;
-	position:absolute;
-	padding:3px 10px;
-	border-radius:5px 0px 0px 5px;
-	
-}
-
-.top_text{
-    background: #F7F8FA;
-	padding: 1px 16px 10px 15px;
-}
-.single_pricing ul li{
-	padding:15px 20px;
-}
-.single_pricing ul li img{
-	padding-right:7px;
-}
-
-.table_info{
-    padding: 25px 0px 30px 15px;
-	width:100%;	
-}
-.info_head_text{
-	color:#585b60;
-	font-size:50px;
-}
-.info_head_text sub{
-	color:#585b60;
-	font-size:25px;
-}
-.info_head_text span{
-	color:#9da6ac;
-	font-size:25px;
-}
-
-a.info_right_text{
-	margin-left:35px;
-	color:#9da6ac;
 }
 
 
