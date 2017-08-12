@@ -61,7 +61,7 @@ ul{
 h1,h2,h3,h4,h5,h6 { color:#585b60;}
 
 h1 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     line-height: 50px;
     font-weight: 600;
     font-family: "Myriad Pro" , sans-serif;
@@ -313,6 +313,7 @@ h2{
 }
 .heading-text h1{
 	color:#fff;
+    font-size: 7.5rem;
 }
 p.bannerDescription{
     color: #fff;
@@ -447,6 +448,13 @@ h3{
 .main_description_second_contant{
 	padding:130px 0px;
 }
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: "Myriad Pro" , sans-serif;
+}
 /* Description Third */
 #description_third{}
 
@@ -479,7 +487,7 @@ h3{
 
 /* video Section */
 #video{
-	background:url(../images/video_bg.jpg);
+	background:url(../images/background.jpg);
 	background-size:cover;
 }
 
@@ -496,7 +504,7 @@ h3{
 
 /* Testimonial Section */
 #testimonial{
-	background:url(../images/testbg.jpg) no-repeat scroll center center;
+	background:url(../images/background.jpg) no-repeat scroll center center;
 	background-size:cover;
 	
 }
@@ -544,7 +552,7 @@ h3{
 
 /* Subscribe */
 #subscribe{
-	background:url(../images/subbg.jpg) no-repeat scroll center center;
+	background:url(../images/background.jpg) no-repeat scroll center center;
 	background-size:cover;
 }
 .subcribe_overlay{
@@ -585,7 +593,8 @@ h3{
 /*Message Section*/
 
 #message {
-	background: #d7d7d7;
+	background:url(../images/background.jpg) no-repeat scroll center center;
+    background-size:cover;
 	padding-top: 96px;
 	padding-bottom: 96px;
 }
@@ -626,14 +635,14 @@ h3{
 	margin-left:10px;
 }
 .socail_bookmark a i{
-    font-size: 14px;
+    font-size: 42px;
     color: #D2D3D5;
     padding: 7px;
     border: 1px solid #D2D3D5;
     border-radius: 50%;
     background: #FFFFFF;
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 65px;
 	transition:.5s;
 }
 .socail_bookmark a:hover i{
