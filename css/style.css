@@ -467,7 +467,7 @@ h1 {
 
 /* Apps Gallery Section */
 #apps_gallery{
-	background:#3C3852;
+	background:#ffffff;
 	
 }
 
@@ -475,10 +475,10 @@ h1 {
 	padding:60px 0px;
 }
 .gallery_heading_text h1{
-	color:#fff;
+	color:#585b60;
 }
 .gallery_heading_text p{
-	color:#fff;
+	color:#585b60;
 }
 
 .owl-theme .owl-controls {
